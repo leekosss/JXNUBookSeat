@@ -3,7 +3,7 @@
 # @Author : Leekos
 # @File : bookSeat.py
 # @Software : PyCharm
-# @JXNU自习室抢课脚本
+# @JXNU自习室抢座脚本
 
 import requests
 from datetime import datetime, timedelta
