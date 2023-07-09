@@ -7,6 +7,31 @@
 
 **如果觉得有用请点亮你的star**
 
+
+
+## 使用方法
+
+```python
+username = "xxxx"  # 学号
+password = "yyyy"  # 密码
+beginTime = hour2Data(9)  # 开始时间
+duration = 3  # 持续时间
+duration = duration * 3600
+num = 1  # 人数
+roomID = room["202"]  # 自习室ID
+categoryId = 591  # 填写自己的categoryId
+```
+
+首先安装玩项目所需的依赖
+
+然后将main函数中学号、密码、开始小时、持续时间、人数、自习室ID进行修改，
+
+运行脚本即可
+
+<img src="https://s2.loli.net/2023/07/09/eJt64qYAypvcMDj.png" alt="image-20230709134201153" style="zoom: 50%;" />
+
+
+
 ## 更新信息
 
 - 2023-7-8 v1.1版
