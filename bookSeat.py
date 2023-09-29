@@ -56,12 +56,8 @@ class User(object):
 
     # 登录
     def login(self):
-        loginURL = baseURL + "/api/1/login"  # 登录接口
-        data = {"login_name": self.username, "password": self.password, "ui_type": "com.Raw",
-                "code": "b529de5e2da9d7732bcd14f8bfaf2ad4", "str": "peIX1SRwIUa9BQmH", "org_id": "142",
-                "_ApplicationId": "lab4", "_JavaScriptKey": "lab4", "_ClientVersion": "js_xxx",
-                "_InstallationId": "15af0ca1-0630-5ff9-2b47-3b20d32ace6c"}
-
+        #
+        # 
         res = self.session.post(url=loginURL, json=data, headers=self.headers)  # 使用session保持会话(注意传递json字符串)
         if res.status_code == 200:
             print("[+]登陆成功！")
